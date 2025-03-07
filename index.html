@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagin Maharjan - Portfolio</title>
+    <link rel="stylesheet" href="website.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #7852a8;
+        }
+        header {
+            position: relative;
+            overflow: hidden;
+            height: 300px;
+        }
+        .carousel {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            animation: slide 15s infinite;
+        }
+        .carousel img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        @keyframes slide {
+            0% { opacity: 1; }
+            20% { opacity: 1; }
+            25% { opacity: 0; }
+            100% { opacity: 0; }
+        }
+        nav {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: #e7c6be;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<header>
+    <div class="carousel">
+        <img src="C:\Users\Ls1\Desktop\Sagin.web\mountain.jpg" alt="Image 1">
+    </div>
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center;">
+        <h1>Sagin Maharjan</h1>
+        <p>Welcome to my portfolio! I am a Professional web designer with a passion for creating the webpage.</p>
+    </div>
+</header>
+
+<section id="education">
+    <h2>Education Qualification</h2>
+    <ul>
+        <li><p>Bachelor of Computer Applications (BCA) - Nesfield International College, 2027</p></li>
+        <li>High School Diploma - Moonlight Secondary School, 2022</li>
+    </ul>
+</section>
+
+<section id="experience">
+    <h2>Professional History</h2>
+    <ul>
+        <li><p>Software Developer at ABC Company - [2015] to [2020]</p></li>
+        <li><p>Graphic Designer at XYZ Company - [2015] to [2020]</p></li>
+        <li>Programmer at 123 company - [2028]</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Info</h2>
+    <p>If you would like to get in touch, feel free to reach out!</p>
+    <ul>
+    <li><p>Email: <a href="mailto:saginmhzn7@gmail.com">saginmhzn7@gmail.com</p></li>
+    <li><p>Phone: 9876543210</p></li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2023 Sagin Maharjan. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
